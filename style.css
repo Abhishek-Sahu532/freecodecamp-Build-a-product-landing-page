@@ -1,0 +1,244 @@
+    body {
+    font-family: "Lato", sans-serif;
+    background-color: #eee
+    }
+
+    /* @media screen and (min-width: 480px) {
+    body {
+        background-color: #d9dbde;
+    }
+    } */
+
+    #header{
+        position: sticky;
+        top:0%;
+        width: 100%;
+        display: block;
+        padding: 20px;
+        background-color: #eee;
+    }
+
+   @media (max-width: 600px){
+
+    .logo{
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+    }
+   }
+
+   @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  }
+  
+
+    #header #logo img{
+        float: left;
+        width: 260px;
+        height: auto;
+    }
+
+    #header #nav-bar{
+        float: right;
+        padding-right: 20px;
+
+    }
+
+    #header #nav-bar a{
+        text-decoration: none;
+        font-size: 18px;
+        padding:25px;
+        color: #000000
+    }
+
+
+
+
+
+    .midContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 10px;
+    }
+
+
+    .midContainer > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    }
+
+    #email {
+    color: white;
+    padding:0.3rem;
+    width: 250px;
+    }
+
+    #submit {
+    background-color: #f1c40f;
+    font-weight:900;
+    cursor: pointer;
+    height: 32px;
+    width: 150px;
+    border: 0;
+    }
+
+
+
+
+    #feature-detail {
+    padding: 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin-left: 18%;
+
+    }
+
+    #feature-detail-div{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    #feature-detail-div .icon{
+        display: flex;
+        height: 125px;
+        align-items: center;
+        justify-content: center;
+        color: darkorange;
+        font-weight: 900;
+    }
+
+    #feature-detail-div #feature-detail-content{
+        display:absolute;
+        flex-direction: column;
+        justify-content:center   ;
+        height: 125px;
+        width: 80vw;
+        padding: 5px 0 0 10px;
+        margin-left: 20px;
+        
+
+    }
+    #feature-detail-div #feature-detail-conten h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        margin-bottom: 15px;
+     
+    }
+    
+    #feature-detail-div #feature-detail-conten p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        line-height:0px;
+        margin-top: 5px;
+        text-align: justify;
+        word-wrap:normal;
+    }
+
+
+
+    /* price container */
+
+
+    #price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+    .prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    }
+
+    .price-head {
+    width: 100%;
+    background-color:#cccccc
+    }
+
+    #select {
+    background-color: yellow;
+    font-weight: 200;
+    cursor: pointer;
+    height: 40px;
+    text-transform: uppercase;
+    width: 100px;
+    border: 0;
+    }
+
+    #price {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    }
+    .prices > p {
+    text-align: center;
+    font-size: 13px;
+    
+    }
+
+    #video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    margin-top: 50px;
+    }
+
+    #footer {
+    text-align: right;
+    display: block;
+    padding: 20px;
+    width: 80%;
+    margin: 150px auto 0 auto;
+    background-color: bisque;
+    }
+    #footer > a {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    }
+
+    /* video section */
+
+    .videoFrame{
+        width: 50%;
+        margin: auto;
+    }
+
